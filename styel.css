@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #111;
+  background: #f7f7f7;
+}
+
+.container {
+  width: min(90%, 960px);
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 80px 0 48px;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.eyebrow {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin: 12px 0 16px;
+}
+
+h2 {
+  margin-top: 48px;
+  font-size: 28px;
+}
+
+.subtext {
+  max-width: 700px;
+  font-size: 18px;
+  color: #444;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #111;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+section {
+  padding: 12px 0 8px;
+}
