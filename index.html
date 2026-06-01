@@ -3,66 +3,215 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>eQima | Growth Operator</title>
+  <title>eQima | Growth Operator for Organic Social</title>
+  <meta
+    name="description"
+    content="eQima is a growth operator helping agencies and online brands grow revenue through organic social media engagement, lean systems, and consistent execution."
+  />
+  <meta property="og:title" content="eQima | Growth Operator for Organic Social" />
+  <meta
+    property="og:description"
+    content="Helping brands turn organic social media engagement into consistent revenue."
+  />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
   <link
-  href="https://assets.calendly.com/assets/external/widget.css"
-  rel="stylesheet"
-/>
+    href="https://assets.calendly.com/assets/external/widget.css"
+    rel="stylesheet"
+  />
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <p class="eyebrow">eQima</p>
-      <h1>Growth operator for lean digital teams</h1>
-      <p class="subtext">
-        I help agencies and online brands streamline execution, launch faster,
-        and build practical systems for growth.
-      </p>
-      <a class="button" href="mailto:henry@eqima.co">Contact Me</a>
+  <!-- Top navigation -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="eQima home">
+        <span class="brand-mark" aria-hidden="true">eQ</span>
+        <span class="brand-name">eQima</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#clients">Who I help</a>
+        <a href="#process">Process</a>
+      </nav>
+      <a
+        href="#"
+        class="button button--sm"
+        onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/henry-eqima-growth/30min' }); return false;"
+      >
+        Book a call
+      </a>
     </div>
   </header>
 
-  <main class="container">
-    <section>
-      <h2>What I help with</h2>
-      <ul>
-        <li>Workflow setup and cleanup</li>
-        <li>Lead research and qualification</li>
-        <li>Content operations support</li>
-        <li>Simple store and website setup</li>
-        <li>AI-assisted execution systems</li>
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="container hero-inner">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Growth Operator · Organic Social</p>
+      <h1>Turn organic social engagement into <span class="grad">consistent revenue</span></h1>
+      <p class="subtext">
+        I help agencies and online brands grow on social without paid ads —
+        building the content systems, workflows, and execution rhythm that turn
+        attention into customers.
+      </p>
+      <div class="hero-cta">
+        <a
+          href="#"
+          class="button button--lg"
+          onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/henry-eqima-growth/30min' }); return false;"
+        >
+          Book a 30-min call
+        </a>
+        <a class="button button--ghost button--lg" href="mailto:henry@eqima.co">Email me</a>
+      </div>
+
+      <ul class="stats" aria-label="Highlights">
+        <li>
+          <span class="stat-num">Organic-first</span>
+          <span class="stat-label">No ad spend required</span>
+        </li>
+        <li>
+          <span class="stat-num">Systems-led</span>
+          <span class="stat-label">Repeatable, not random</span>
+        </li>
+        <li>
+          <span class="stat-num">Lean &amp; fast</span>
+          <span class="stat-label">Ship in days, not months</span>
+        </li>
       </ul>
+    </div>
+  </section>
+
+  <main>
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <p class="section-eyebrow">What I help with</p>
+        <h2 class="section-title">Everything that moves organic growth forward</h2>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📣</div>
+            <h3>Content operations</h3>
+            <p>Plan, produce, and publish on a reliable cadence so your brand stays visible and consistent.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>Engagement systems</h3>
+            <p>Turn comments, DMs, and interactions into real conversations — and conversations into customers.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🔎</div>
+            <h3>Lead research &amp; qualification</h3>
+            <p>Find and prioritize the right accounts so your outreach and content reach people who convert.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">⚙️</div>
+            <h3>Workflow setup &amp; cleanup</h3>
+            <p>Streamline the tools and handoffs behind the scenes so your team executes without friction.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🛍️</div>
+            <h3>Store &amp; website setup</h3>
+            <p>Simple, fast pages that capture demand from social and turn clicks into purchases.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤖</div>
+            <h3>AI-assisted execution</h3>
+            <p>Practical AI workflows that multiply output without sacrificing quality or your brand voice.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Who I work with</h2>
-      <p>
-        I support digital agencies, service businesses, and online brands that
-        need a reliable operator to help turn ideas into consistent execution.
-      </p>
+    <!-- Who I work with -->
+    <section class="section section--alt" id="clients">
+      <div class="container split">
+        <div class="split-text">
+          <p class="section-eyebrow">Who I work with</p>
+          <h2 class="section-title">Built for lean digital teams</h2>
+          <p class="lead">
+            I support digital agencies, service businesses, and online brands
+            that need a reliable operator to turn ideas into consistent
+            execution — without bloating headcount.
+          </p>
+        </div>
+        <ul class="check-list">
+          <li>Agencies that need execution muscle behind client work</li>
+          <li>Founders growing a brand through organic content</li>
+          <li>Service businesses that want a steady inbound channel</li>
+          <li>Teams ready to systemize what's currently ad-hoc</li>
+        </ul>
+      </div>
     </section>
 
-    <section>
-      <h2>How I work</h2>
-      <p>
-        Lean, practical, and systems-first. I focus on workflows that save time,
-        reduce friction, and help teams move faster without adding unnecessary complexity.
-      </p>
+    <!-- Process -->
+    <section class="section" id="process">
+      <div class="container">
+        <p class="section-eyebrow">How I work</p>
+        <h2 class="section-title">Lean, practical, systems-first</h2>
+        <p class="lead lead--center">
+          I focus on workflows that save time, reduce friction, and help teams
+          move faster — without adding unnecessary complexity.
+        </p>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">01</span>
+            <h3>Audit</h3>
+            <p>We map what's working, what's stuck, and where the easy wins are hiding.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">02</span>
+            <h3>Build the system</h3>
+            <p>I set up the content, engagement, and workflow systems your growth runs on.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">03</span>
+            <h3>Execute &amp; refine</h3>
+            <p>We ship consistently, watch the numbers, and tighten what drives revenue.</p>
+          </li>
+        </ol>
+      </div>
     </section>
-    <section class="calendly-section">
-  <h2>Book a Call</h2>
-  <p>If you'd like to work together or discuss a project, book a quick call.</p>
 
-  <a
-    href="#"
-    class="button"
-    onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/henry-eqima-growth/30min' }); return false;"
-  >
-    Book a 30-min Call
-  </a>
-</section>
+    <!-- CTA / Book a call -->
+    <section class="section cta" id="book">
+      <div class="container cta-inner">
+        <h2 class="section-title">Let's grow your organic channel</h2>
+        <p class="lead lead--center">
+          If you'd like to work together or talk through a project, book a quick
+          call — no pressure, just a clear next step.
+        </p>
+        <div class="hero-cta hero-cta--center">
+          <a
+            href="#"
+            class="button button--lg button--invert"
+            onclick="Calendly.initPopupWidget({ url: 'https://calendly.com/henry-eqima-growth/30min' }); return false;"
+          >
+            Book a 30-min call
+          </a>
+          <a class="button button--ghost button--ghost-light button--lg" href="mailto:henry@eqima.co">henry@eqima.co</a>
+        </div>
+      </div>
+    </section>
   </main>
-<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">eQ</span>
+        <span class="brand-name">eQima</span>
+      </div>
+      <p class="footer-tag">Growth operator for lean digital teams.</p>
+      <p class="footer-copy">© 2026 eQima · <a href="mailto:henry@eqima.co">henry@eqima.co</a></p>
+    </div>
+  </footer>
+
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </body>
 </html>
